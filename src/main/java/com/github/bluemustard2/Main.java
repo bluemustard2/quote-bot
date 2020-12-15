@@ -23,7 +23,7 @@ public class Main {
         FallbackLoggerConfiguration.setTrace(true);
 
         DiscordApi api = new DiscordApiBuilder()
-                .setToken("Nzg4MjcyNzU1MTExMTAwNDU2.X9hGNg.zEievTzHaKngUdjI-xISp9HAiwE")
+                .setToken("QUOTE_BOT_TOKEN")
                 .login()
                 .join();
 
