@@ -24,3 +24,7 @@ jar {
         attributes 'Main-Class': 'com.github.bluemustard2.Main'
     }
 }
+
+bootJar {
+    archiveFileName = "quote-bot.jar"
+}
