@@ -27,6 +27,8 @@ public class Main {
                 .login()
                 .join();
 
+        System.out.println(api.createBotInvite());
+
         api.addMessageCreateListener(event -> {
             if (event.getMessageContent().equalsIgnoreCase("!quote")) {
                 event.getChannel().sendMessage(quoteSelector());
